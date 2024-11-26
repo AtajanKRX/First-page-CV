@@ -1,0 +1,57 @@
+* {
+    margin-top: 0px;
+}
+
+img {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 50px;
+}
+
+.About {
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.links {
+    position: absolute;
+    left: 450px;
+    top: 3px;
+    font-size: xx-large;
+    font-family: Arial;
+}
+
+.name {
+    position: absolute;
+    top: 0px;
+}
+
+@media (min-width: 0px) and (max-width: 750px) {
+    body {
+        background-color: rgb(87, 207, 231);
+    }
+    img {
+        position: absolute;
+        width: 100px;
+        height: 90px;
+        top: 50px;
+        left: 45%;
+    }
+    .About {
+        position: absolute;
+        top: 160px;
+        left: 280px;
+        font-size: x-small;
+        text-align: center;
+    }
+    .name {
+        position: absolute;
+        top: 20px;
+        left: 40%;
+        font-size: xx-small;
+    }
+}
